@@ -1,13 +1,24 @@
 body {
-    background-color: lavender;
-    text-align: center;
+    background-color: #f7f4f8;
     font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 40px;
+    color: #4a4650;
+    max-width: 800px;
+    margin: auto;
 }
 
 h1 {
-    color: purple;
+    color: #756579;
+    font-size: 40px;
+}
+
+h2 {
+    color: #8b7a8f;
+    margin-top: 35px;
 }
 
 p {
-    font-size: 20px;
+    font-size: 18px;
+    line-height: 1.6;
 }
