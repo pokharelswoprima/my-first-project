@@ -42,6 +42,7 @@ p {
     border-radius: 12px;
     color: #756579;
     font-weight: bold;
+    transition: 0.2s ease;
 }
 .skill:hover {
     transform: translateY(-5px);
