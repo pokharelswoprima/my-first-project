@@ -28,3 +28,18 @@ p {
     font-size: 18px;
     line-height: 1.6;
 }
+.skills {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.skill {
+    background-color: #eee8f1;
+    padding: 15px 20px;
+    border-radius: 12px;
+    color: #756579;
+    font-weight: bold;
+}
