@@ -52,3 +52,9 @@ p {
     transform: translateY(-5px);
     box-shadow: 0 6px 15px rgba(117, 101, 121, 0.15);
 }
+.project {
+    background-color: #eee8f1;
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
