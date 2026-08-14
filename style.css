@@ -27,6 +27,7 @@ p {
     box-shadow: 0 8px 25px rgba(117, 101, 121, 0.12);
     font-size: 18px;
     line-height: 1.6;
+    transition: 0.2s ease;     
 }
 .container:hover {
     transform: translateY(-3px);
