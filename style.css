@@ -106,3 +106,7 @@ nav a:hover {
     max-width: 600px;
     margin: 15px auto;
 }
+h2 {
+    margin-top: 45px;
+    margin-bottom: 15px;
+}
