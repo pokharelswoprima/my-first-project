@@ -50,6 +50,7 @@ p {
     color: #756579;
     font-weight: bold;
     transition: 0.2s ease;
+    min-width: 150px;
 }
 .skill:hover {
     transform: translateY(-5px);
