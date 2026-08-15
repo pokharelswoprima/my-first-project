@@ -51,6 +51,7 @@ p {
     font-weight: bold;
     transition: 0.2s ease;
     min-width: 150px;
+    box-shadow: 0 4px 10px rgba(117, 101, 121, 0.08);
 }
 .skill:hover {
     transform: translateY(-5px);
