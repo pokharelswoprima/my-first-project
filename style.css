@@ -119,11 +119,15 @@ h2 {
         font-size: 32px;
     }
 
-    nav a {
-        display: inline-block;
-        margin: 5px;
+       nav {
+        text-align: center;
     }
 
+    nav a {
+        display: inline-block;
+        margin: 5px 3px;
+        font-size: 14px;
+    }
     .container {
         padding: 25px;
     }
