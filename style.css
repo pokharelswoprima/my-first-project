@@ -146,11 +146,14 @@ footer {
     font-size: 14px;
     border-top: 1px solid #e6dfe9;
 }
-footer a,
 #contact a {
     color: #756579;
     text-decoration: none;
     font-weight: bold;
+}
+
+#contact a:hover {
+    color: #a58aaa;
 }
 
 footer a:hover,
