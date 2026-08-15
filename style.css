@@ -100,3 +100,9 @@ nav a:hover {
 .project-button:hover {
     background-color: #756579;
 }
+.intro {
+    font-size: 20px;
+    color: #756579;
+    max-width: 600px;
+    margin: 15px auto;
+}
