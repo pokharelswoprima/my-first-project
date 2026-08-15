@@ -146,13 +146,17 @@ footer {
     font-size: 14px;
     border-top: 1px solid #e6dfe9;
 }
-#contact a {
+a[href^="mailto:"],
+a[href*="github.com"],
+a[href*="linkedin.com"] {
     color: #756579;
     text-decoration: none;
     font-weight: bold;
 }
 
-#contact a:hover {
+a[href^="mailto:"]:hover,
+a[href*="github.com"]:hover,
+a[href*="linkedin.com"]:hover {
     color: #a58aaa;
 }
 
