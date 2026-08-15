@@ -149,7 +149,7 @@ footer {
 footer a,
 #contact a {
     color: #756579;
-    text-decoration: none;
+    text-decoration: none; !imporant;
     font-weight: bold;
 }
 
