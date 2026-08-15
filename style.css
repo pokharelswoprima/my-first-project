@@ -86,3 +86,17 @@ nav a {
 nav a:hover {
     color: #a58aaa;
 }
+.project-button {
+    display: inline-block;
+    background-color: #8b7a8f;
+    color: white;
+    text-decoration: none;
+    padding: 12px 24px;
+    border-radius: 12px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.project-button:hover {
+    background-color: #756579;
+}
