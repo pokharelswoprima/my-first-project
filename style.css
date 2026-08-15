@@ -63,6 +63,7 @@ p {
     border-radius: 15px;
     margin-top: 20px;
     box-shadow: 0 4px 10px rgba(117, 101, 121, 0.08);
+    transition: 0.2s ease;
 }
 .project:hover {
     transform: translateY(-5px);
