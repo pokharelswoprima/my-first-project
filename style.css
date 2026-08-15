@@ -58,3 +58,17 @@ p {
     border-radius: 15px;
     margin-top: 20px;
 }
+nav {
+    margin-bottom: 35px;
+}
+
+nav a {
+    color: #756579;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #a58aaa;
+}
