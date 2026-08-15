@@ -135,3 +135,10 @@ h2 {
     border-radius: 50%;
     margin-bottom: 20px;
 }
+footer {
+    margin-top: 50px;
+    padding: 20px;
+    color: #8b7a8f;
+    font-size: 14px;
+    border-top: 1px solid #e6dfe9;
+}
