@@ -60,6 +60,11 @@ p {
 }
 nav {
     margin-bottom: 35px;
+    position: sticky;
+    top: 0;
+    padding: 15px;
+    background-color: #faf8fc;
+    z-index: 1000;
 }
 
 nav a {
