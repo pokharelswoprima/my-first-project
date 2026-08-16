@@ -21,8 +21,6 @@ h2 {
     margin-top: 35px;
 }
 
-p {
-}
      .container {
     background-color: #faf8fc;
     padding: 40px;
@@ -68,7 +66,6 @@ p {
 .project:hover {
     transform: translateY(-5px);
     box-shadow: 0 6px 15px rgba(117, 101, 121, 0.15);
-    transition: 0.2s ease;
 }
 nav {
     margin-bottom: 35px;
@@ -175,11 +172,6 @@ a[href*="linkedin.com"] {
 a[href^="mailto:"]:hover,
 a[href*="github.com"]:hover,
 a[href*="linkedin.com"]:hover {
-    color: #a58aaa;
-}
-
-footer a:hover,
-#contact a:hover {
     color: #a58aaa;
 }
 .top-button {
