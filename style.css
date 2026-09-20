@@ -5,10 +5,9 @@ html {
 body {
     background-color: #f7f4f8;
     font-family: "Segoe UI", Arial, sans-serif;
-    padding: 50px 30px;
     color: #4a4650;
-    max-width: 900px;
-    margin: auto;
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
@@ -26,12 +25,13 @@ h2 {
 }
 
 nav {
-    margin-bottom: 35px;
     position: sticky;
     top: 0;
-    padding: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 18px 30px;
     background-color: #faf8fc;
-    border-radius: 15px;
+    border-bottom: 1px solid #e9e3eb;
     text-align: center;
     z-index: 1000;
 }
@@ -49,11 +49,14 @@ nav a:hover {
 
 .container {
     background-color: #faf8fc;
-    padding: 40px;
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 50px 60px;
     border-radius: 20px;
     box-shadow: 0 10px 30px rgba(117, 101, 121, 0.08);
     font-size: 18px;
     line-height: 1.6;
+    box-sizing: border-box;
 }
 
 /* ---------- HERO: text left, photo right ---------- */
@@ -260,8 +263,10 @@ a[href*="linkedin.com"]:hover {
 
 /* ---------- FOOTER ---------- */
 footer {
-    margin-top: 65px;
-    padding: 25px 20px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 0;
+    padding: 30px 20px;
     color: #8b7a8f;
     font-size: 14px;
     text-align: center;
@@ -286,15 +291,12 @@ footer {
 
 /* ---------- MOBILE ---------- */
 @media (max-width: 700px) {
-    body {
-        padding: 20px;
-    }
-
     h1 {
         font-size: 34px;
     }
 
     .container {
+        margin: 20px auto;
         padding: 25px;
     }
 
