@@ -1,230 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Swoprima Pokharel — Portfolio</title>
-<meta name="description" content="Portfolio of Swoprima Pokharel, a BSc CSIT student in Kathmandu building software projects in C, C++, and web development.">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%237c6a82'/%3E%3Ctext x='32' y='42' font-family='Georgia, serif' font-size='28' font-weight='700' fill='white' text-anchor='middle'%3ESP%3C/text%3E%3C/svg%3E">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#learning">Learning</a>
+        <a href="#goal">Goal</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
 
-<nav id="navbar">
-    <div class="nav-inner">
-        <a href="#home" class="nav-logo">SP</a>
-        <div class="nav-links">
-            <a href="#home" class="nav-link" data-section="home">Home</a>
-            <a href="#about" class="nav-link" data-section="about">About</a>
-            <a href="#skills" class="nav-link" data-section="skills">Skills</a>
-            <a href="#projects" class="nav-link" data-section="projects">Projects</a>
-            <a href="#contact" class="nav-link" data-section="contact">Contact</a>
+    <div class="container">
+
+        <!-- HERO: text on the left, photo on the right -->
+        <section class="hero" id="home">
+            <div class="hero-text">
+                <h1>Hi, I'm Swoprima Pokharel</h1>
+                <p class="intro">BSc.CSIT Student · Aspiring Software Developer</p>
+                <p class="hero-description">
+                    I'm a computer science student passionate about learning technology,
+                    building practical projects, and continuously improving my skills in
+                    programming and web development.
+                </p>
+                <a class="project-button" href="#projects">View My Projects</a>
+            </div>
+
+            <div class="hero-image">
+                <img src="MY PHOTO.jpg" alt="Swoprima Pokharel" class="profile-picture">
+            </div>
+        </section>
+
+        <h2 id="about">About Me</h2>
+        <p>
+            I'm a BSc.CSIT student with a growing interest in software development
+            and web technologies. I enjoy learning by building projects and
+            experimenting with new tools and technologies. I'm currently focused
+            on strengthening my programming fundamentals while developing practical
+            skills in web development and version control.
+        </p>
+
+        <h2 id="learning">Currently Learning</h2>
+        <p>
+            I'm currently expanding my knowledge of programming, web development,
+            version control, and software development fundamentals through
+            coursework and hands-on projects.
+        </p>
+
+        <h2 id="skills">Technical Skills</h2>
+        <div class="skills">
+            <div class="skill">
+                <span class="skill-icon">💻</span>
+                <span class="skill-name">C Programming</span>
+            </div>
+            <div class="skill">
+                <span class="skill-icon">🌐</span>
+                <span class="skill-name">HTML &amp; CSS</span>
+            </div>
+            <div class="skill">
+                <span class="skill-icon">🎨</span>
+                <span class="skill-name">Git &amp; GitHub</span>
+            </div>
         </div>
-    </div>
-</nav>
 
-<!-- HERO -->
-<section class="band band-alt hero" id="home">
-    <div class="band-inner hero-inner">
-        <div class="hero-text">
-            <h1>Hi, I'm Swoprima Pokharel</h1>
-            <p class="hero-tagline">A BSc CSIT student learning to build real software.</p>
-            <p class="hero-desc">
-                I like turning what I learn in class into things I can actually use —
-                a portfolio site, a record-keeping program, small experiments in C
-                and the web. Still early, still building.
+        <h2 id="goal">My Goal</h2>
+        <p>
+            My goal is to grow into a skilled software developer by strengthening
+            my technical foundation, building meaningful projects, and gaining
+            experience with real-world development practices.
+        </p>
+
+        <h2 id="projects">My Projects</h2>
+
+        <div class="project">
+            <h3>Personal Portfolio Website</h3>
+            <p>
+                A responsive personal portfolio built with HTML and CSS,
+                using Git and GitHub to manage development and version control.
             </p>
-            <a class="btn-primary" href="#projects">See my projects</a>
         </div>
-        <div class="hero-visual">
-            <div class="hero-blob"></div>
-            <span class="hero-glyph" aria-hidden="true">&lt;/&gt;</span>
-            <img src="MY PHOTO.jpg" alt="Swoprima Pokharel" class="profile-picture">
-        </div>
-    </div>
-</section>
 
-<!-- ABOUT -->
-<section class="band" id="about">
-    <div class="band-inner">
-        <h2>About</h2>
-        <div class="about-grid">
-            <p class="about-text">
-                I'm in my second semester of BSc CSIT at New Summit College in
-                Kathmandu. Most of what I know so far comes from coursework in
-                C, C++, and web basics, plus building small things on the side
-                to see how they actually work.
+        <div class="project">
+            <h3>Patient Record System</h3>
+            <p>
+                A C programming project that uses file handling to
+                store, organize, and manage patient records efficiently.
             </p>
-            <dl class="about-facts">
-                <div class="about-fact">
-                    <dt>Currently learning</dt>
-                    <dd>Programming fundamentals, web development, and version control through coursework and projects.</dd>
-                </div>
-                <div class="about-fact">
-                    <dt>Aiming for</dt>
-                    <dd>A solid foundation now, real development experience next.</dd>
-                </div>
-            </dl>
         </div>
-    </div>
-</section>
 
-<!-- SKILLS -->
-<section class="band band-alt" id="skills">
-    <div class="band-inner">
-        <h2>Skills</h2>
-        <div class="skills-grid">
-            <div class="skill-group">
-                <h3>Languages</h3>
-                <div class="chips">
-                    <span class="chip">C</span>
-                    <span class="chip">C++</span>
-                </div>
+        <!-- CONTACT FORM -->
+        <h2 id="contact">Contact Me</h2>
+        <p>Have a question or just want to say hello? Send me a message.</p>
+
+        <form class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+            <div class="form-row">
+                <label for="name">Your name</label>
+                <input type="text" id="name" name="name" placeholder="Jane Sharma" required>
             </div>
-            <div class="skill-group">
-                <h3>Web</h3>
-                <div class="chips">
-                    <span class="chip">HTML</span>
-                    <span class="chip">CSS</span>
-                </div>
+
+            <div class="form-row">
+                <label for="email">Your email</label>
+                <input type="email" id="email" name="email" placeholder="jane@example.com" required>
             </div>
-            <div class="skill-group">
-                <h3>Tools</h3>
-                <div class="chips">
-                    <span class="chip">Git</span>
-                    <span class="chip">GitHub</span>
-                </div>
+
+            <div class="form-row">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" placeholder="What is this about?">
             </div>
-        </div>
-    </div>
-</section>
 
-<!-- PROJECTS -->
-<section class="band" id="projects">
-    <div class="band-inner">
-        <h2>Projects</h2>
-        <div class="projects-grid">
-
-            <article class="project-card">
-                <div class="mockup">
-                    <div class="mockup-bar">
-                        <span></span><span></span><span></span>
-                    </div>
-                    <div class="mockup-body">
-                        <div class="mockup-line mockup-line-wide"></div>
-                        <div class="mockup-line"></div>
-                        <div class="mockup-line mockup-line-short"></div>
-                    </div>
-                </div>
-                <div class="project-info">
-                    <h3>Personal Portfolio Website</h3>
-                    <p>A responsive personal site built to showcase my projects and skills, with a working contact form.</p>
-                    <div class="chips chips-mono">
-                        <span class="chip chip-mono">HTML</span>
-                        <span class="chip chip-mono">CSS</span>
-                        <span class="chip chip-mono">Git</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="https://github.com/pokharelswoprima" target="_blank" rel="noopener">View code</a>
-                    </div>
-                </div>
-            </article>
-
-            <article class="project-card">
-                <div class="mockup">
-                    <div class="mockup-bar">
-                        <span></span><span></span><span></span>
-                    </div>
-                    <div class="mockup-body mockup-body-dark">
-                        <div class="mockup-line mockup-line-wide"></div>
-                        <div class="mockup-line mockup-line-short"></div>
-                        <div class="mockup-line"></div>
-                    </div>
-                </div>
-                <div class="project-info">
-                    <h3>Patient Record System</h3>
-                    <p>A command-line program that stores and manages patient records using file handling in C.</p>
-                    <div class="chips chips-mono">
-                        <span class="chip chip-mono">C</span>
-                        <span class="chip chip-mono">File I/O</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="https://github.com/pokharelswoprima" target="_blank" rel="noopener">View code</a>
-                    </div>
-                </div>
-            </article>
-
-        </div>
-    </div>
-</section>
-
-<!-- CONTACT -->
-<section class="band band-alt" id="contact">
-    <div class="band-inner">
-        <h2>Contact</h2>
-        <p class="contact-intro">Have a question or want to connect? Send a message or reach out directly.</p>
-
-        <div class="contact-grid">
-            <form class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
-                <div class="form-row">
-                    <label for="name">Your name</label>
-                    <input type="text" id="name" name="name" placeholder="Jane Sharma" required>
-                </div>
-                <div class="form-row">
-                    <label for="email">Your email</label>
-                    <input type="email" id="email" name="email" placeholder="jane@example.com" required>
-                </div>
-                <div class="form-row">
-                    <label for="subject">Subject</label>
-                    <input type="text" id="subject" name="subject" placeholder="What is this about?">
-                </div>
-                <div class="form-row">
-                    <label for="message">Message</label>
-                    <textarea id="message" name="message" rows="5" placeholder="Write your question here..." required></textarea>
-                </div>
-                <button type="submit" class="btn-primary">Send message</button>
-            </form>
-
-            <div class="contact-direct">
-                <h3>Reach me directly</h3>
-                <ul>
-                    <li><a href="mailto:pokharelswoprima@gmail.com">pokharelswoprima@gmail.com</a></li>
-                    <li><a href="https://github.com/pokharelswoprima" target="_blank" rel="noopener">github.com/pokharelswoprima</a></li>
-                    <li><a href="https://www.linkedin.com/in/swoprimapokharel" target="_blank" rel="noopener">linkedin.com/in/swoprimapokharel</a></li>
-                    <li>Kathmandu, Nepal</li>
-                </ul>
+            <div class="form-row">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="6" placeholder="Write your question here..." required></textarea>
             </div>
-        </div>
+
+            <button type="submit" class="form-button">Send message</button>
+        </form>
+
+        <p class="contact-direct">
+            Or reach me directly:
+            📧 <a href="mailto:pokharelswoprima@gmail.com">pokharelswoprima@gmail.com</a>
+        </p>
+
+        <p class="contact-direct">
+            <a href="https://github.com/pokharelswoprima">GitHub</a> |
+            <a href="https://www.linkedin.com/in/swoprimapokharel">LinkedIn</a>
+        </p>
+
     </div>
-</section>
 
-<footer>
-    <div class="band-inner footer-inner">
-        <p>© 2026 Swoprima Pokharel. Built with HTML &amp; CSS.</p>
-        <a href="#home" class="top-button">Back to top</a>
-    </div>
-</footer>
-
-<script>
-    const sections = document.querySelectorAll('.band[id], footer');
-    const navLinks = document.querySelectorAll('.nav-link');
-
-    const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                const id = entry.target.getAttribute('id');
-                navLinks.forEach(link => {
-                    link.classList.toggle('active', link.dataset.section === id);
-                });
-            }
-        });
-    }, { rootMargin: '-45% 0px -50% 0px' });
-
-    document.querySelectorAll('section[id]').forEach(section => observer.observe(section));
-</script>
-
+    <footer>
+        <p>© 2026 Swoprima Pokharel. Built with HTML, CSS &amp; GitHub.</p>
+        <a href="#home" class="top-button">↑ Back to Top</a>
+    </footer>
 </body>
 </html>
